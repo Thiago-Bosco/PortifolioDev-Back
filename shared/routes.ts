@@ -60,6 +60,15 @@ export const api = {
       },
     },
   },
+  certifications: {
+    list: {
+      method: 'GET' as const,
+      path: '/api/certifications',
+      responses: {
+        200: z.array(z.custom<typeof certifications.$inferSelect>()),
+      },
+    },
+  },
   contact: {
     submit: {
       method: 'POST' as const,

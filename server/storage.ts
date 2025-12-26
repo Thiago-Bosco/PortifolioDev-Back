@@ -1,7 +1,7 @@
 import { db } from "./db";
 import {
-  profile, skills, experiences, projects, educations, contacts,
-  type Profile, type Skill, type Experience, type Project, type Education, type InsertContact
+  profile, skills, experiences, projects, educations, contacts, certifications,
+  type Profile, type Skill, type Experience, type Project, type Education, type InsertContact, type Certification
 } from "@shared/schema";
 
 export interface IStorage {
@@ -10,6 +10,7 @@ export interface IStorage {
   getExperiences(): Promise<Experience[]>;
   getProjects(): Promise<Project[]>;
   getEducations(): Promise<Education[]>;
+  getCertifications(): Promise<Certification[]>;
   createContact(contact: InsertContact): Promise<void>;
   
   // Seed methods
@@ -18,6 +19,7 @@ export interface IStorage {
   createExperience(data: any): Promise<void>;
   createProject(data: any): Promise<void>;
   createEducation(data: any): Promise<void>;
+  createCertification(data: any): Promise<void>;
 }
 
 export class DatabaseStorage implements IStorage {
@@ -41,6 +43,10 @@ export class DatabaseStorage implements IStorage {
   async getEducations(): Promise<Education[]> {
     return await db.select().from(educations);
   }
+
+  async getCertifications(): Promise<Certification[]> {
+    return await db.select().from(certifications);
+  }
   
   async createContact(contact: InsertContact): Promise<void> {
     await db.insert(contacts).values(contact);
@@ -60,6 +66,9 @@ export class DatabaseStorage implements IStorage {
   }
   async createEducation(data: any): Promise<void> {
     await db.insert(educations).values(data);
+  }
+  async createCertification(data: any): Promise<void> {
+    await db.insert(certifications).values(data);
   }
 }
 

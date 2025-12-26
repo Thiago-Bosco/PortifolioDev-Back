@@ -43,6 +43,14 @@ export const educations = pgTable("educations", {
   institution: text("institution").notNull(),
 });
 
+export const certifications = pgTable("certifications", {
+  id: serial("id").primaryKey(),
+  name: text("name").notNull(),
+  issuer: text("issuer").notNull(),
+  date: text("date").notNull(),
+  credentialId: text("credential_id"),
+});
+
 export const contacts = pgTable("contacts", {
   id: serial("id").primaryKey(),
   name: text("name").notNull(),
@@ -59,3 +67,4 @@ export type Skill = typeof skills.$inferSelect;
 export type Experience = typeof experiences.$inferSelect;
 export type Project = typeof projects.$inferSelect;
 export type Education = typeof educations.$inferSelect;
+export type Certification = typeof certifications.$inferSelect;

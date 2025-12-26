@@ -34,6 +34,11 @@ export async function registerRoutes(
     res.json(educations);
   });
 
+  app.get(api.certifications.list.path, async (req, res) => {
+    const certs = await storage.getCertifications();
+    res.json(certs);
+  });
+
   app.post(api.contact.submit.path, async (req, res) => {
     try {
       const input = api.contact.submit.input.parse(req.body);
@@ -128,6 +133,19 @@ async function seedDatabase() {
     degree: "Engenharia de Software",
     institution: "Anhanguera University"
   });
+
+  const certs = await storage.getCertifications();
+  if (certs.length === 0) {
+    await storage.createCertification({ name: "Criando uma API REST em Go", issuer: "Rocketseat", date: "abr de 2025", credentialId: "d84da50d-af58-4008-b577-fcc3110eda8f" });
+    await storage.createCertification({ name: "Integração com bancos de dados em Go", issuer: "Rocketseat", date: "abr de 2025", credentialId: "995afcf9-f564-417e-b5b0-5368d905a5f1" });
+    await storage.createCertification({ name: "Conceitos Avançados de Go", issuer: "Rocketseat", date: "fev de 2025", credentialId: "b60049d9-b205-4bd6-b339-d2f572f96317" });
+    await storage.createCertification({ name: "Fundamentos em Go", issuer: "Rocketseat", date: "jan de 2025", credentialId: "7c9c0b48-9034-47e9-9354-6121a0fdc57d" });
+    await storage.createCertification({ name: "Formação Linguagem Go", issuer: "Alura", date: "nov de 2024", credentialId: "c3e5f4dd-619c-4c86-8d11-c29c89f74f3e" });
+    await storage.createCertification({ name: "Go e Gin: criando API rest com simplicidade", issuer: "Alura", date: "nov de 2024", credentialId: "90881b74-1b88-4099-b7af-bed035810f64" });
+    await storage.createCertification({ name: "Harmony SASE – Technical Specialist", issuer: "Check Point Software", date: "nov de 2024", credentialId: null });
+    await storage.createCertification({ name: "Monitoramento: Prometheus, Grafana e Alertmanager", issuer: "Alura", date: "nov de 2024", credentialId: "6ac671dc-59dc-40a2-9ebe-e085f61b7899" });
+    await storage.createCertification({ name: "Django: Formação crie aplicações em Python", issuer: "Alura", date: "set de 2024", credentialId: "492acfce-ba38-4c37-898b-fa13b6aed0e5" });
+  }
 
   console.log("Database seeded successfully!");
 }
