@@ -325,7 +325,9 @@ function EducationSection() {
 
 // --- Certifications Section ---
 function CertificationsSection() {
-  const { data: certifications } = useCertifications();
+  const { data: certifications, isLoading } = useCertifications();
+
+  if (isLoading) return null;
 
   return (
     <section id="certifications" className="py-24">
