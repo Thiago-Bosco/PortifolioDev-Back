@@ -6,8 +6,8 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { useToast } from "@/hooks/use-toast";
-import { useProfile, useSkills, useExperiences, useProjects, useEducations, useContact } from "@/hooks/use-portfolio";
-import { Github, Linkedin, Mail, MapPin, Download, Terminal, Database, Server, Cpu, Globe, ArrowRight, Loader2 } from "lucide-react";
+import { useProfile, useSkills, useExperiences, useProjects, useEducations, useCertifications, useContact } from "@/hooks/use-portfolio";
+import { Github, Linkedin, Mail, MapPin, Download, Terminal, Database, Server, Cpu, Globe, ArrowRight, Loader2, Award } from "lucide-react";
 import { motion } from "framer-motion";
 import { Link as ScrollLink } from "react-scroll";
 import { z } from "zod";
@@ -302,14 +302,12 @@ function EducationSection() {
   const { data: educations } = useEducations();
   
   return (
-    <section className="py-24 bg-secondary/5">
+    <section id="education" className="py-24 bg-secondary/5">
       <div className="container mx-auto px-6">
         <div className="max-w-2xl mx-auto">
-          <h3 className="text-2xl font-bold font-display text-center mb-12 flex items-center justify-center">
-            <span className="text-primary mr-2">05.</span> Education
-          </h3>
+          <SectionHeading title="Education" subtitle="My academic background" number="05" />
           
-          <div className="space-y-8">
+          <div className="space-y-8 mt-12">
             {educations?.map((edu) => (
                <div key={edu.id} className="flex flex-col md:flex-row md:items-center justify-between border-b border-white/5 pb-8 last:border-0">
                  <div>
@@ -319,6 +317,40 @@ function EducationSection() {
                </div>
             ))}
           </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+// --- Certifications Section ---
+function CertificationsSection() {
+  const { data: certifications } = useCertifications();
+
+  return (
+    <section id="certifications" className="py-24">
+      <div className="container mx-auto px-6">
+        <SectionHeading title="Certifications" subtitle="Professional recognition" number="06" />
+        
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-12">
+          {certifications?.map((cert, index) => (
+            <motion.div
+              key={cert.id}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ delay: index * 0.1, duration: 0.4 }}
+              viewport={{ once: true }}
+              className="bg-secondary/30 border border-white/5 p-6 rounded-lg hover:bg-secondary/50 hover:border-primary/30 transition-all duration-300 group"
+            >
+              <Award className="w-8 h-8 mb-4 text-primary" />
+              <h4 className="text-lg font-bold mb-2 group-hover:text-primary transition-colors">{cert.name}</h4>
+              <p className="text-sm text-muted-foreground font-mono">{cert.issuer}</p>
+              <p className="text-xs text-muted-foreground/60 mt-2">{cert.date}</p>
+              {cert.credentialId && (
+                <p className="text-xs font-mono text-primary/70 mt-4 break-all">ID: {cert.credentialId}</p>
+              )}
+            </motion.div>
+          ))}
         </div>
       </div>
     </section>
@@ -362,7 +394,7 @@ function ContactSection() {
   return (
     <section id="contact" className="py-32 text-center">
       <div className="container mx-auto px-6 max-w-2xl">
-        <p className="font-mono text-primary mb-4">06. What's Next?</p>
+        <p className="font-mono text-primary mb-4">07. What's Next?</p>
         <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">Get In Touch</h2>
         <p className="text-muted-foreground text-lg mb-12">
           I'm currently looking for new opportunities. Whether you have a question or just want to say hi, 
@@ -481,6 +513,7 @@ export default function Home() {
         <ExperienceSection />
         <ProjectsSection />
         <EducationSection />
+        <CertificationsSection />
         <ContactSection />
       </main>
       <Footer />

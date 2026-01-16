@@ -61,6 +61,18 @@ export function useEducations() {
   });
 }
 
+// GET /api/certifications
+export function useCertifications() {
+  return useQuery({
+    queryKey: [api.certifications.list.path],
+    queryFn: async () => {
+      const res = await fetch(api.certifications.list.path);
+      if (!res.ok) throw new Error("Failed to fetch certifications");
+      return api.certifications.list.responses[200].parse(await res.json());
+    },
+  });
+}
+
 // POST /api/contact
 export function useContact() {
   return useMutation({
