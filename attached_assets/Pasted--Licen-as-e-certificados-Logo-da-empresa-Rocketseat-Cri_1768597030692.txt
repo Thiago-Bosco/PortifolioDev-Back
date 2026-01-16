@@ -1,0 +1,155 @@
+
+Licenças e certificados
+
+    Logo da empresa Rocketseat
+    Criando uma API REST em GoCriando uma API REST em Go
+    RocketseatRocketseat Verificação emitida em abr de 2025Verificação emitida em abr de 2025 Código da credencial d84da50d-af58-4008-b577-fcc3110eda8fCódigo da credencial d84da50d-af58-4008-b577-fcc3110eda8f
+        Exibir credencial
+            Competências: Go (Linguagem de programação)Competências: Go (Linguagem de programação)
+    Logo da empresa Rocketseat
+    Integração com bancos de dados em GoIntegração com bancos de dados em Go
+    RocketseatRocketseat Verificação emitida em abr de 2025Verificação emitida em abr de 2025 Código da credencial 995afcf9-f564-417e-b5b0-5368d905a5f1Código da credencial 995afcf9-f564-417e-b5b0-5368d905a5f1
+        Exibir credencial
+    Logo da empresa Rocketseat
+    Conceitos Avançados de GoConceitos Avançados de Go
+    RocketseatRocketseat Verificação emitida em fev de 2025Verificação emitida em fev de 2025 Código da credencial b60049d9-b205-4bd6-b339-d2f572f96317Código da credencial b60049d9-b205-4bd6-b339-d2f572f96317
+        Exibir credencial
+    Logo da empresa Rocketseat
+    Fundamentos em GoFundamentos em Go
+    RocketseatRocketseat Verificação emitida em jan de 2025Verificação emitida em jan de 2025 Código da credencial 7c9c0b48-9034-47e9-9354-6121a0fdc57dCódigo da credencial 7c9c0b48-9034-47e9-9354-6121a0fdc57d
+        Exibir credencial
+    Logo da empresa Alura
+    Formação Linguagem GoFormação Linguagem Go
+    AluraAlura Verificação emitida em nov de 2024Verificação emitida em nov de 2024 Código da credencial c3e5f4dd-619c-4c86-8d11-c29c89f74f3eCódigo da credencial c3e5f4dd-619c-4c86-8d11-c29c89f74f3e
+        Exibir credencial
+            Competências: Go (Linguagem de programação)Competências: Go (Linguagem de programação)
+    Logo da empresa Alura
+    Go e Gin: criando API rest com simplicidadeGo e Gin: criando API rest com simplicidade
+    AluraAlura Verificação emitida em nov de 2024Verificação emitida em nov de 2024 Código da credencial 90881b74-1b88-4099-b7af-bed035810f64Código da credencial 90881b74-1b88-4099-b7af-bed035810f64
+        Exibir credencial
+            Competências: Go (Linguagem de programação)Competências: Go (Linguagem de programação)
+    Logo da empresa Alura
+    Go: desenvolvendo uma API RestGo: desenvolvendo uma API Rest
+    AluraAlura Verificação emitida em nov de 2024Verificação emitida em nov de 2024 Código da credencial 60b07c68-b138-441a-963d-36a2eeb0d653Código da credencial 60b07c68-b138-441a-963d-36a2eeb0d653
+        Exibir credencial
+            Competências: Go (Linguagem de programação)Competências: Go (Linguagem de programação)
+    Logo da empresa Alura
+    Go: validações, testes e páginas HTMLGo: validações, testes e páginas HTML
+    AluraAlura Verificação emitida em nov de 2024Verificação emitida em nov de 2024 Código da credencial 2fa249e7-5ac0-4a12-846d-16cce6a1349dCódigo da credencial 2fa249e7-5ac0-4a12-846d-16cce6a1349d
+        Exibir credencial
+            Competências: Go (Linguagem de programação) · Linguagens de programaçãoCompetências: Go (Linguagem de programação) · Linguagens de programação
+    Logo da empresa Check Point Software
+    Harmony SASE – Technical SpecialistHarmony SASE – Technical Specialist
+    Check Point SoftwareCheck Point Software Emitido em nov de 2024 · Expira em nov de 2026Emitido em nov de 2024 · Expira em nov de 2026
+        Exibir credencial
+    Logo da empresa Check Point Software
+    Harmony SaaS – Technical SpecialistHarmony SaaS – Technical Specialist
+    Check Point SoftwareCheck Point Software Emitido em nov de 2024 · Expira em nov de 2026Emitido em nov de 2024 · Expira em nov de 2026
+        Exibir credencial
+    Logo da empresa Alura
+    Monitoramento: Prometheus, Grafana e AlertmanagerMonitoramento: Prometheus, Grafana e Alertmanager
+    AluraAlura Verificação emitida em nov de 2024Verificação emitida em nov de 2024 Código da credencial 6ac671dc-59dc-40a2-9ebe-e085f61b7899Código da credencial 6ac671dc-59dc-40a2-9ebe-e085f61b7899
+        Exibir credencial
+    Logo da empresa Check Point Software
+    Quantum IoT – Technical SpecialistQuantum IoT – Technical Specialist
+    Check Point SoftwareCheck Point Software Emitido em nov de 2024 · Expira em nov de 2026Emitido em nov de 2024 · Expira em nov de 2026
+        Exibir credencial
+    Logo da empresa Alura
+    Go: Orientação a ObjetosGo: Orientação a Objetos
+    AluraAlura Verificação emitida em out de 2024Verificação emitida em out de 2024 Código da credencial c2d70113-e100-4e2d-8f8f-2368e98eef06Código da credencial c2d70113-e100-4e2d-8f8f-2368e98eef06
+        Exibir credencial
+            Competências: Linguagens de programaçãoCompetências: Linguagens de programação
+    Logo da empresa Alura
+    Go: a linguagem do GoogleGo: a linguagem do Google
+    AluraAlura Verificação emitida em out de 2024Verificação emitida em out de 2024 Código da credencial 75a99d0d-336d-45f0-b187-a5defe4bcb2dCódigo da credencial 75a99d0d-336d-45f0-b187-a5defe4bcb2d
+        Exibir credencial
+    Logo da empresa Alura
+    Go: crie uma aplicação webGo: crie uma aplicação web
+    AluraAlura Verificação emitida em out de 2024Verificação emitida em out de 2024 Código da credencial 21787807-319f-46d1-b0b8-560daf84045bCódigo da credencial 21787807-319f-46d1-b0b8-560daf84045b
+        Exibir credencial
+    Logo da empresa Rocketseat
+    Minicurso de JavaMinicurso de Java
+    RocketseatRocketseat Verificação emitida em out de 2024Verificação emitida em out de 2024 Código da credencial 823c5be2-d59b-4fe3-846d-ef6156f3c30eCódigo da credencial 823c5be2-d59b-4fe3-846d-ef6156f3c30e
+        Exibir credencial
+    Logo da empresa Rocketseat
+    Minicurso de PythonMinicurso de Python
+    RocketseatRocketseat Verificação emitida em out de 2024Verificação emitida em out de 2024 Código da credencial 639a04e4-3306-49ae-9d88-6c965bfd5557Código da credencial 639a04e4-3306-49ae-9d88-6c965bfd5557
+        Exibir credencial
+    Logo da empresa Alura
+    Django: CRUD e persistência no S3Django: CRUD e persistência no S3
+    AluraAlura Verificação emitida em set de 2024Verificação emitida em set de 2024 Código da credencial 877a3686-7c4e-40f2-a3ef-54e2d8dd65f4Código da credencial 877a3686-7c4e-40f2-a3ef-54e2d8dd65f4
+        Exibir credencial
+            Competências: Linguagens de programaçãoCompetências: Linguagens de programação
+    Logo da empresa Alura
+    Django: autenticação de formulários e alertaDjango: autenticação de formulários e alerta
+    AluraAlura Verificação emitida em set de 2024Verificação emitida em set de 2024 Código da credencial 1aaccd9c-a42a-4743-becc-bea9820a7193Código da credencial 1aaccd9c-a42a-4743-becc-bea9820a7193
+        Exibir credencial
+            Competências: Linguagens de programaçãoCompetências: Linguagens de programação
+    Logo da empresa Alura
+    Django: persistência de dados e AdminDjango: persistência de dados e Admin
+    AluraAlura Verificação emitida em set de 2024Verificação emitida em set de 2024 Código da credencial 643c8567-8ef1-43da-9be4-00773bf4315dCódigo da credencial 643c8567-8ef1-43da-9be4-00773bf4315d
+        Exibir credencial
+            Competências: Linguagens de programaçãoCompetências: Linguagens de programação
+    Logo da empresa Alura
+    Django: templates e boas práticasDjango: templates e boas práticas
+    AluraAlura Verificação emitida em set de 2024Verificação emitida em set de 2024 Código da credencial 6b32e4d6-e05b-4391-bb99-0cdeafbf11beCódigo da credencial 6b32e4d6-e05b-4391-bb99-0cdeafbf11be
+        Exibir credencial
+    Logo da empresa Alura
+    Formação Django: crie aplicações em PythonFormação Django: crie aplicações em Python
+    AluraAlura Verificação emitida em set de 2024Verificação emitida em set de 2024 Código da credencial 492acfce-ba38-4c37-898b-fa13b6aed0e5Código da credencial 492acfce-ba38-4c37-898b-fa13b6aed0e5
+        Exibir credencial
+    Logo da empresa Alura
+    Formação Aprenda a programar em Python com Orientação a ObjetosFormação Aprenda a programar em Python com Orientação a Objetos
+    AluraAlura Verificação emitida em ago de 2024Verificação emitida em ago de 2024 Código da credencial 968e4a1c-9225-4eb7-9ac1-0d9488c5cd79Código da credencial 968e4a1c-9225-4eb7-9ac1-0d9488c5cd79
+        Exibir credencial
+    Logo da empresa Alura
+    Git e GitHub: compartilhando e colaborando em projetosGit e GitHub: compartilhando e colaborando em projetos
+    AluraAlura Verificação emitida em ago de 2024Verificação emitida em ago de 2024 Código da credencial c9551931-0a28-408e-acfd-77a5f0387dfcCódigo da credencial c9551931-0a28-408e-acfd-77a5f0387dfc
+        Exibir credencial
+    Logo da empresa Alura
+    Python: análise de dados com SQLPython: análise de dados com SQL
+    AluraAlura Verificação emitida em ago de 2024Verificação emitida em ago de 2024 Código da credencial a35bac31-f494-42f4-a7cf-95d09172e3bfCódigo da credencial a35bac31-f494-42f4-a7cf-95d09172e3bf
+        Exibir credencial
+            Competências: Linguagens de programação · PythonCompetências: Linguagens de programação · Python
+    Logo da empresa Alura
+    Python: aplicando a Orientação a ObjetosPython: aplicando a Orientação a Objetos
+    AluraAlura Verificação emitida em ago de 2024Verificação emitida em ago de 2024 Código da credencial 30ec28b8-6925-46a0-bfa4-01d7b9b68af5Código da credencial 30ec28b8-6925-46a0-bfa4-01d7b9b68af5
+        Exibir credencial
+            Competências: Linguagens de programação · PythonCompetências: Linguagens de programação · Python
+    Logo da empresa Alura
+    Python: avance na Orientação a Objetos e consuma APIPython: avance na Orientação a Objetos e consuma API
+    AluraAlura Verificação emitida em ago de 2024Verificação emitida em ago de 2024 Código da credencial 5696d84b-257a-4291-98ce-c90473c64cdaCódigo da credencial 5696d84b-257a-4291-98ce-c90473c64cda
+        Exibir credencial
+            Competências: PythonCompetências: Python
+    Logo da empresa Alura
+    Scripting: automação de tarefas com Python e criação de Pipelines no JenkinsScripting: automação de tarefas com Python e criação de Pipelines no Jenkins
+    AluraAlura Verificação emitida em ago de 2024Verificação emitida em ago de 2024 Código da credencial 97eb9b20-c20e-4d74-9d61-83ae09d55cecCódigo da credencial 97eb9b20-c20e-4d74-9d61-83ae09d55cec
+        Exibir credencial
+            Competências: Linguagens de programaçãoCompetências: Linguagens de programação
+    Logo da empresa Alura
+    String em Python: extraindo informações de uma URLString em Python: extraindo informações de uma URL
+    AluraAlura Verificação emitida em ago de 2024Verificação emitida em ago de 2024 Código da credencial 25229b2e-90b6-4ab8-a538-7bbf448e0038Código da credencial 25229b2e-90b6-4ab8-a538-7bbf448e0038
+        Exibir credencial
+            Competências: Linguagens de programaçãoCompetências: Linguagens de programação
+    Logo da empresa Check Point Software
+    CloudGuard Pre-Sales - Technical SpecialistCloudGuard Pre-Sales - Technical Specialist
+    Check Point SoftwareCheck Point Software Emitido em jul de 2024 · Expira em jul de 2026Emitido em jul de 2024 · Expira em jul de 2026
+        Exibir credencial
+            Competências: Linguagens de programaçãoCompetências: Linguagens de programação
+    Logo da empresa Alura
+    Python: crie a sua primeira aplicaçãoPython: crie a sua primeira aplicação
+    AluraAlura Verificação emitida em jul de 2024Verificação emitida em jul de 2024 Código da credencial fbbb8b96-a8c6-4b4d-8b16-53c3a2bddad9Código da credencial fbbb8b96-a8c6-4b4d-8b16-53c3a2bddad9
+        Exibir credencial
+            Competências: Linguagens de programação · PythonCompetências: Linguagens de programação · Python
+    Logo da empresa Check Point Software
+    Welcome Partners (CPSC)Welcome Partners (CPSC)
+    Check Point SoftwareCheck Point Software Emitido em jun de 2024 · Expira em jun de 2026Emitido em jun de 2024 · Expira em jun de 2026
+        Exibir credencial
+    Logo da empresa Fortinet
+    Introduction to the Threat Landscape 2.0Introduction to the Threat Landscape 2.0
+    FortinetFortinet Verificação emitida em mai de 2024Verificação emitida em mai de 2024
+        Exibir credencial
+    Logo da empresa Check Point Software
+    MSSP CertificationMSSP Certification
+    Check Point SoftwareCheck Point Software Emitido em nov de 2024 · Expira em nov de 2025Emitido em nov de 2024 · Expira em nov de 2025
+        Exibir credencial
