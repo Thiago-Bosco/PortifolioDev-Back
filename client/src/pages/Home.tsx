@@ -253,21 +253,10 @@ function ProjectsSection() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ duration: 0.5 }}
-              className={`flex flex-col ${index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'} gap-8 items-center`}
+              className="flex flex-col gap-8"
             >
-              {/* Project Image / Visual */}
-              <div className="w-full md:w-7/12 relative group">
-                <div className="absolute inset-0 bg-primary/20 rounded z-10 group-hover:bg-transparent transition-all duration-300"></div>
-                <div className="w-full aspect-video bg-[#1a1f2e] rounded border border-white/10 flex items-center justify-center relative overflow-hidden">
-                   <Terminal className="w-16 h-16 text-muted-foreground/30" />
-                   <div className="absolute bottom-4 left-4 font-mono text-xs text-muted-foreground">
-                     {`> construindo ${project.title.toLowerCase()}...`}
-                   </div>
-                </div>
-              </div>
-
               {/* Project Content */}
-              <div className={`w-full md:w-5/12 ${index % 2 === 0 ? 'md:text-right' : 'md:text-left'} relative z-20`}>
+              <div className={`w-full relative z-20`}>
                 <p className="font-mono text-primary text-sm mb-2">Projeto em Destaque</p>
                 <h3 className="text-2xl font-bold text-foreground mb-4">{project.title}</h3>
                 
@@ -275,13 +264,13 @@ function ProjectsSection() {
                   {project.description}
                 </div>
                 
-                <div className={`flex flex-wrap gap-3 mb-8 text-xs font-mono text-muted-foreground ${index % 2 === 0 ? 'md:justify-end' : 'md:justify-start'}`}>
+                <div className="flex flex-wrap gap-3 mb-8 text-xs font-mono text-muted-foreground">
                   {project.technologies.map(tech => (
                     <span key={tech}>{tech}</span>
                   ))}
                 </div>
 
-                <div className={`flex gap-4 ${index % 2 === 0 ? 'md:justify-end' : 'md:justify-start'}`}>
+                <div className="flex gap-4">
                   <a href="#" className="text-foreground hover:text-primary transition-colors"><Github className="w-5 h-5" /></a>
                   <a href="#" className="text-foreground hover:text-primary transition-colors"><Globe className="w-5 h-5" /></a>
                 </div>
