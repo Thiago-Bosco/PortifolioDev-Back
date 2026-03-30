@@ -243,7 +243,7 @@ function ProjectsSection() {
   return (
     <section id="projects" className="py-24">
       <div className="container mx-auto px-6">
-        <SectionHeading title="O Que Já Construí" subtitle="Projetos em destaque" number="04" />
+        <SectionHeading title="Projetos Desenvolvidos" subtitle="Projetos em destaque" number="04" />
 
         <div className="space-y-24 mt-16">
           {projects?.map((project, index) => (
