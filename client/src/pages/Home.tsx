@@ -36,7 +36,7 @@ function HeroSection() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
         >
-          <p className="font-mono text-primary mb-4">Hi, my name is</p>
+          <p className="font-mono text-primary mb-4">Olá, meu nome é</p>
           <h1 className="text-5xl md:text-7xl font-bold text-foreground mb-4 tracking-tight leading-tight">
             {profile.name}.
           </h1>
@@ -50,11 +50,11 @@ function HeroSection() {
           <div className="flex flex-wrap gap-4">
             <ScrollLink to="projects" smooth={true} offset={-100}>
               <Button size="lg" className="h-12 px-8 font-mono text-sm bg-primary text-primary-foreground hover:bg-primary/90">
-                Check out my work
+                Ver meus projetos
               </Button>
             </ScrollLink>
             <Button variant="outline" size="lg" className="h-12 px-8 font-mono text-sm border-primary text-primary hover:bg-primary/10">
-              <Download className="mr-2 h-4 w-4" /> Download Resume
+              <Download className="mr-2 h-4 w-4" /> Baixar Currículo
             </Button>
           </div>
         </motion.div>
@@ -67,16 +67,16 @@ function HeroSection() {
         >
           <TerminalCard title="profile.json" className="max-w-md mx-auto transform rotate-2 hover:rotate-0 transition-transform duration-500">
             <div className="text-green-400">
-              <span className="text-purple-400">const</span> <span className="text-yellow-400">developer</span> = {"{"}
+              <span className="text-purple-400">const</span> <span className="text-yellow-400">desenvolvedor</span> = {"{"}
             </div>
             <div className="pl-4">
-              <div>name: <span className="text-orange-400">"{profile.name}"</span>,</div>
-              <div>role: <span className="text-orange-400">"{profile.title}"</span>,</div>
-              <div>location: <span className="text-orange-400">"{profile.location}"</span>,</div>
-              <div>skills: [</div>
+              <div>nome: <span className="text-orange-400">"{profile.name}"</span>,</div>
+              <div>cargo: <span className="text-orange-400">"{profile.title}"</span>,</div>
+              <div>localização: <span className="text-orange-400">"{profile.location}"</span>,</div>
+              <div>habilidades: [</div>
               <div className="pl-4 text-orange-400">"Node.js", "TypeScript", "PostgreSQL", "Cloud Architecture"</div>
               <div>],</div>
-              <div>openToWork: <span className="text-blue-400">true</span></div>
+              <div>aberto_a_oportunidades: <span className="text-blue-400">true</span></div>
             </div>
             <div className="text-green-400">{"}"};</div>
           </TerminalCard>
@@ -101,26 +101,25 @@ function AboutSection() {
   return (
     <section id="about" className="py-24 bg-secondary/5">
       <div className="container mx-auto px-6">
-        <SectionHeading title="About Me" subtitle="Who I am and what I do" number="01" />
+        <SectionHeading title="Sobre Mim" subtitle="Quem sou e o que faço" number="01" />
         
         <div className="grid md:grid-cols-3 gap-12 items-start">
           <div className="md:col-span-2 text-muted-foreground space-y-6 leading-relaxed text-lg">
             <p>
-              I specialize in building robust backend systems and scalable infrastructure. 
-              My passion lies in architecting efficient solutions to complex problems, specifically within cloud environments.
+              Sou especializado na construção de sistemas backend robustos e infraestrutura escalável.
+              Minha paixão está em arquitetar soluções eficientes para problemas complexos, especialmente em ambientes cloud.
             </p>
             <p>
-              With a strong foundation in <span className="text-primary">Node.js, TypeScript, and SQL</span>, I have successfully delivered high-performance applications in various domains.
-              I believe in clean code, rigorous testing, and continuous integration.
+              Com uma sólida base em <span className="text-primary">Node.js, TypeScript e SQL</span>, tenho entregado aplicações de alta performance em diversos domínios.
+              Acredito em código limpo, testes rigorosos e integração contínua.
             </p>
             <p>
-              When I'm not coding, I'm usually researching the latest cloud technologies, contributing to open source, or optimizing my personal server setup.
+              Quando não estou programando, geralmente estou pesquisando as mais recentes tecnologias cloud, contribuindo para o open source ou otimizando minha configuração de servidor pessoal.
             </p>
           </div>
           
           <div className="relative group">
             <div className="absolute inset-0 bg-primary/20 rounded-lg translate-x-4 translate-y-4 group-hover:translate-x-2 group-hover:translate-y-2 transition-transform duration-300"></div>
-            {/* Using a placeholder visual since no real photo is available, simulating a tech profile pic */}
             <div className="relative z-10 bg-background border-2 border-primary/30 rounded-lg overflow-hidden aspect-square flex items-center justify-center group-hover:-translate-y-1 transition-transform duration-300">
                <Terminal className="w-24 h-24 text-primary/50" />
             </div>
@@ -148,7 +147,7 @@ function SkillsSection() {
   return (
     <section id="skills" className="py-24">
       <div className="container mx-auto px-6">
-        <SectionHeading title="Technical Arsenal" subtitle="Tools and technologies I work with" number="02" />
+        <SectionHeading title="Arsenal Técnico" subtitle="Ferramentas e tecnologias com as quais trabalho" number="02" />
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
           {skills?.map((skill, index) => (
@@ -185,7 +184,7 @@ function ExperienceSection() {
   return (
     <section id="experience" className="py-24 bg-secondary/5">
       <div className="container mx-auto px-6">
-        <SectionHeading title="Where I've Worked" subtitle="My professional journey" number="03" />
+        <SectionHeading title="Onde Trabalhei" subtitle="Minha jornada profissional" number="03" />
 
         <div className="flex flex-col md:flex-row gap-8 max-w-4xl mx-auto mt-12">
           {/* Tab List */}
@@ -244,7 +243,7 @@ function ProjectsSection() {
   return (
     <section id="projects" className="py-24">
       <div className="container mx-auto px-6">
-        <SectionHeading title="Some Things I've Built" subtitle="Featured projects" number="04" />
+        <SectionHeading title="O Que Já Construí" subtitle="Projetos em destaque" number="04" />
 
         <div className="space-y-24 mt-16">
           {projects?.map((project, index) => (
@@ -260,18 +259,16 @@ function ProjectsSection() {
               <div className="w-full md:w-7/12 relative group">
                 <div className="absolute inset-0 bg-primary/20 rounded z-10 group-hover:bg-transparent transition-all duration-300"></div>
                 <div className="w-full aspect-video bg-[#1a1f2e] rounded border border-white/10 flex items-center justify-center relative overflow-hidden">
-                   {/* Placeholder for project screenshot */}
                    <Terminal className="w-16 h-16 text-muted-foreground/30" />
                    <div className="absolute bottom-4 left-4 font-mono text-xs text-muted-foreground">
-                     {/* Pseudo-code for visual interest */}
-                     {`> building ${project.title.toLowerCase()}...`}
+                     {`> construindo ${project.title.toLowerCase()}...`}
                    </div>
                 </div>
               </div>
 
               {/* Project Content */}
               <div className={`w-full md:w-5/12 ${index % 2 === 0 ? 'md:text-right' : 'md:text-left'} relative z-20`}>
-                <p className="font-mono text-primary text-sm mb-2">Featured Project</p>
+                <p className="font-mono text-primary text-sm mb-2">Projeto em Destaque</p>
                 <h3 className="text-2xl font-bold text-foreground mb-4">{project.title}</h3>
                 
                 <div className="bg-[#112240] p-6 rounded shadow-xl text-muted-foreground text-sm leading-relaxed mb-6">
@@ -305,7 +302,7 @@ function EducationSection() {
     <section id="education" className="py-24 bg-secondary/5">
       <div className="container mx-auto px-6">
         <div className="max-w-2xl mx-auto">
-          <SectionHeading title="Education" subtitle="My academic background" number="05" />
+          <SectionHeading title="Formação" subtitle="Minha trajetória acadêmica" number="05" />
           
           <div className="space-y-8 mt-12">
             {educations?.map((edu) => (
@@ -332,7 +329,7 @@ function CertificationsSection() {
   return (
     <section id="certifications" className="py-24">
       <div className="container mx-auto px-6">
-        <SectionHeading title="Certifications" subtitle="Professional recognition" number="06" />
+        <SectionHeading title="Certificações" subtitle="Reconhecimento profissional" number="06" />
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-12">
           {certifications?.map((cert, index) => (
@@ -378,14 +375,14 @@ function ContactSection() {
     sendMessage(data, {
       onSuccess: () => {
         toast({
-          title: "Message sent!",
-          description: "I'll get back to you as soon as possible.",
+          title: "Mensagem enviada!",
+          description: "Responderei o mais breve possível.",
         });
         form.reset();
       },
       onError: (error) => {
         toast({
-          title: "Error",
+          title: "Erro",
           description: error.message,
           variant: "destructive"
         });
@@ -396,11 +393,11 @@ function ContactSection() {
   return (
     <section id="contact" className="py-32 text-center">
       <div className="container mx-auto px-6 max-w-2xl">
-        <p className="font-mono text-primary mb-4">07. What's Next?</p>
-        <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">Get In Touch</h2>
+        <p className="font-mono text-primary mb-4">07. E agora?</p>
+        <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">Entre em Contato</h2>
         <p className="text-muted-foreground text-lg mb-12">
-          I'm currently looking for new opportunities. Whether you have a question or just want to say hi, 
-          I'll try my best to get back to you!
+          Estou aberto a novas oportunidades. Seja uma dúvida ou apenas um olá,
+          farei o possível para te responder!
         </p>
 
         <Form {...form}>
@@ -411,9 +408,9 @@ function ContactSection() {
                 name="name"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel className="text-foreground">Name</FormLabel>
+                    <FormLabel className="text-foreground">Nome</FormLabel>
                     <FormControl>
-                      <Input placeholder="John Doe" {...field} className="bg-background/50 border-white/10 focus:border-primary" />
+                      <Input placeholder="João Silva" {...field} className="bg-background/50 border-white/10 focus:border-primary" />
                     </FormControl>
                     <FormMessage />
                   </FormItem>
@@ -424,9 +421,9 @@ function ContactSection() {
                 name="email"
                 render={({ field }) => (
                   <FormItem>
-                    <FormLabel className="text-foreground">Email</FormLabel>
+                    <FormLabel className="text-foreground">E-mail</FormLabel>
                     <FormControl>
-                      <Input placeholder="john@example.com" {...field} className="bg-background/50 border-white/10 focus:border-primary" />
+                      <Input placeholder="joao@exemplo.com" {...field} className="bg-background/50 border-white/10 focus:border-primary" />
                     </FormControl>
                     <FormMessage />
                   </FormItem>
@@ -438,10 +435,10 @@ function ContactSection() {
               name="message"
               render={({ field }) => (
                 <FormItem>
-                  <FormLabel className="text-foreground">Message</FormLabel>
+                  <FormLabel className="text-foreground">Mensagem</FormLabel>
                   <FormControl>
                     <Textarea 
-                      placeholder="Hello! I'd like to discuss a project..." 
+                      placeholder="Olá! Gostaria de conversar sobre um projeto..." 
                       className="min-h-[150px] bg-background/50 border-white/10 focus:border-primary"
                       {...field} 
                     />
@@ -455,7 +452,7 @@ function ContactSection() {
               className="w-full font-mono py-6 bg-primary text-primary-foreground hover:bg-primary/90"
               disabled={isPending}
             >
-              {isPending ? "Sending..." : "Send Message"}
+              {isPending ? "Enviando..." : "Enviar Mensagem"}
             </Button>
           </form>
         </Form>
@@ -494,7 +491,7 @@ function Footer() {
     <footer className="py-8 text-center text-sm font-mono text-muted-foreground bg-background border-t border-white/5">
       <div className="container mx-auto">
         <p className="hover:text-primary transition-colors cursor-default">
-          Designed & Built by Thiago Bosco
+          Desenvolvido por Thiago Bosco
         </p>
         <p className="mt-2 text-xs opacity-60">
           v2.0 · 2025

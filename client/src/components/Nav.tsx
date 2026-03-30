@@ -4,13 +4,13 @@ import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const navItems = [
-  { name: "About", to: "about" },
-  { name: "Skills", to: "skills" },
-  { name: "Experience", to: "experience" },
-  { name: "Projects", to: "projects" },
-  { name: "Education", to: "education" },
-  { name: "Certifications", to: "certifications" },
-  { name: "Contact", to: "contact" },
+  { name: "Sobre", to: "about" },
+  { name: "Habilidades", to: "skills" },
+  { name: "Experiência", to: "experience" },
+  { name: "Projetos", to: "projects" },
+  { name: "Formação", to: "education" },
+  { name: "Certificações", to: "certifications" },
+  { name: "Contato", to: "contact" },
 ];
 
 export function Nav() {
@@ -61,7 +61,7 @@ export function Nav() {
               className="px-4 py-1.5 text-sm font-mono text-primary border border-primary rounded hover:bg-primary/10 transition-colors"
               target="_blank"
             >
-              Resume
+              Currículo
             </a>
           </nav>
 
@@ -105,7 +105,7 @@ export function Nav() {
                 className="mt-8 px-8 py-3 text-base font-mono text-primary border border-primary rounded hover:bg-primary/10 transition-colors"
                 target="_blank"
               >
-                Resume
+                Currículo
               </a>
             </nav>
           </motion.div>
