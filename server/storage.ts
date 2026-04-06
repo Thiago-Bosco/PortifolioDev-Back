@@ -46,11 +46,11 @@ export class MemStorage implements IStorage {
 
     this.experiences = [
       {
-        id: 1,
+        id: 1,s
         company: "AltSec",
         role: "Desenvolvedor Backend / Analista de Infraestrutura de TI",
         period: "Fevereiro/2024 – Atual",
-        description: "Atuação em operações de TI e desenvolvimento de software para clientes corporativos e instituições financeiras (C&C, Gokei Banco, BMP, Ouribank, etc). Responsável pelo desenvolvimento de soluções backend para suporte à operação, automação de processos, criação de sistemas internos e bots de automação."
+        description: "Atuação em operações de TI e desenvolvimento de software para clientes corporativos e instituições financeiras (C&C, {Gokei - Banco, BMP, Ouribank}, Santa Casa - SP, Gcom, Luft , Sphere etc). Responsável pelo desenvolvimento de soluções backend para suporte à operação, automação de processos, criação de sistemas internos e bots de automação."
       }
     ];
 
@@ -60,17 +60,52 @@ export class MemStorage implements IStorage {
         title: "Finder – Plataforma de Procedimentos Operacionais",
         description: "Plataforma backend desenvolvida para centralizar e agilizar a consulta de procedimentos operacionais da equipe de TI.",
         technologies: ["Python 3.11", "Django 5.1", "MySQL", "Docker", "Nginx", "Gunicorn"],
-        highlights: ["Organização de procedimentos por cliente e máquina", "Busca rápida, eficiente e segura", "Controle de autenticação e autorização", "Deploy em ambiente Docker"]
+        highlights: [
+          "Organização de procedimentos por cliente e máquina",
+          "Busca rápida, eficiente e segura",
+          "Controle de autenticação e autorização",
+          "Deploy em ambiente Docker"
+        ]
       },
       {
         id: 2,
         title: "Bot de Automação de Alertas (Zabbix)",
         description: "Bot responsável por monitorar alertas do Zabbix em tempo quase real e automatizar a comunicação de incidentes.",
         technologies: ["NodeJs", "API Zabbix", "Integração WhatsApp"],
-        highlights: ["Consulta automática de alertas a cada minuto", "Validação de alertas conforme ranges e regras", "Envio automático para grupos WhatsApp específicos", "Redução significativa de tarefas manuais"]
+        highlights: [
+          "Consulta automática de alertas a cada minuto",
+          "Validação de alertas conforme ranges e regras",
+          "Envio automático para grupos WhatsApp específicos",
+          "Redução significativa de tarefas manuais"
+        ]
+      },
+      {
+        id: 3,
+        title: "Network Manager TUI",
+        description: "Interface de terminal desenvolvida em Go para gerenciamento de redes Linux, simplificando a configuração e monitoramento via NetworkManager.",
+        technologies: ["Go", "tview", "tcell", "NetworkManager", "nmcli"],
+        highlights: [
+          "Interface TUI intuitiva para administração de rede",
+          "Configuração de IPv4 e IPv6 (manual e DHCP)",
+          "Validação de entradas e execução segura de comandos",
+          "Suporte a múltiplos idiomas (i18n)",
+          "Execução em modo desenvolvimento e produção"
+        ]
+      },
+      {
+        id: 4,
+        title: "Zabbix Host Exporter",
+        description: "Automação para coleta de dados de hosts do Zabbix e geração de relatórios em CSV para auditoria e análise de infraestrutura.",
+        technologies: ["Go", "Zabbix API", "CSV"],
+        highlights: [
+          "Integração direta com a API do Zabbix",
+          "Extração automatizada de hostid e nome dos hosts",
+          "Geração de relatórios em CSV prontos para uso",
+          "Facilita auditorias e análise de ambientes monitorados",
+          "Execução simples e rápida para ambientes de grande escala"
+        ]
       }
     ];
-
     this.educations = [
       { id: 1, degree: "Engenharia de Software", institution: "Anhanguera University" }
     ];
